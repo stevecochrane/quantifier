@@ -1,0 +1,9 @@
+Quantifier is a very simple JW Player plugin that tracks an event for when a video has been loaded, and an event for when the user has begun to play the video, and then sends that event data to your Quantcast account. The plugin takes three variables:
+
+- quantcastid: your Quantcast ID
+- videoid: the ID for the current video
+- videotitle: the human-readable title of the current video
+
+This is a very basic implementation, and there are additional things you can do with the Quantcast API that aren't implemented here. Also, the version of the API used here is pretty out of date. :) For the latest version and for more information about what else it can do, check out Quantcast's Flash Measurement Implementation Guide here: https://www.quantcast.com/learning-center/guides/flash/
+
+This has not been tested in versions beyond JW Player 4.6+, so no guarantees, but I'm pretty confident this will still work with 5.0+. As soon as you include the add-on it will give a few trace statements and let you know what it's doing.
