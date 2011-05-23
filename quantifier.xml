@@ -1,0 +1,27 @@
+<plugin>
+	<title>Quantifier</title>
+	<filename>quantifier.swf</filename>
+	<version>1</version>
+	<compatibility>Compatible with 4.1.</compatibility>
+	<author>Steve Cochrane</author>
+	<description>This integrates the JW Player with a Quantcast account.</description>
+	<href>http://stevecochrane.com/</href>
+	
+	<flashvars>
+		<flashvar>
+			<name>quantcastid</name>
+			<default>null</default>
+			<description>This is the ID value that identifies the Quantcast account.</description>
+		</flashvar>
+		<flashvar>
+			<name>videoid</name>
+			<default>null</default>
+			<description>This is the ID value that identifies which video is being viewed.</description>
+		</flashvar>
+		<flashvar>
+			<name>videotitle</name>
+			<default>null</default>
+			<description>This is the human-readable title of the video being viewed.</description>
+		</flashvar>
+	</flashvars>
+</plugin>
